@@ -15,9 +15,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## New components for this project
 
+~~~
 -t false -> new component with html file
 -s false -> new component with scss file
 -m app   -> default module: app.module.ts
+~~~
 
 ## Development server
 
