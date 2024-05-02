@@ -1,0 +1,19 @@
+.container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--mat-app-text-color);
+    background-color: var(--mat-app-background-color);
+}
+
+app-toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}

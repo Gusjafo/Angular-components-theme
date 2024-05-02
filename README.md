@@ -1,6 +1,23 @@
 # ComponentTheme
 
+The goal of this project is to show interaction between components and dark/light theme.
+
+Components used: 
+- tooltip
+- toolbar
+- slide-toggle
+- buttons
+- card
+- icons
+- table
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
+
+## New components for this project
+
+-t false -> new component with html file
+-s false -> new component with scss file
+-m app   -> default module: app.module.ts
 
 ## Development server
 

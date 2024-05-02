@@ -1,0 +1,16 @@
+<div class="container" [ngClass]="{ 'dark-theme': darkTheme }">
+  <app-toolbar></app-toolbar>
+  <h1
+    style="margin-top: 90px"
+    matTooltip="Info about HOLA MUNDO"
+    aria-label="Button that displays a tooltip when focused or hovered over">
+    Hola Mundo
+  </h1>
+  <app-separator style="display: contents"></app-separator>
+  <app-button-example></app-button-example><br />
+  <app-separator style="display: contents"></app-separator>
+  <app-card></app-card><br />
+  <app-separator style="display: contents"></app-separator>
+  <app-table style="width: 50vw"></app-table>
+  <router-outlet />
+</div>
